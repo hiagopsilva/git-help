@@ -23,7 +23,7 @@
 Primeiro passo: Ir no github e criar um novo repositório.
 - Pra começar você vai precisar entrar no site do github e acessar a página `Repositories`, do lado direito, clique no botão `new`.
 
-- Nisso vai aparecer uma página para criar um novo repositório, abaixo em `Repository name`, de um nome para o seu repositório (não coloque carácteres especiais, se colocar o site irá alterar para a seta, `EX: 'meu*repositorio' -> 'meu-repositorio'`.
+- Nisso vai aparecer uma página para criar um novo repositório, abaixo em `Repository name`, de um nome para o seu repositório (não coloque caracteres especiais, se colocar o site irá alterar para a seta, `EX: 'meu*repositorio' -> 'meu-repositorio'`.
 
 - Depois disso clique em `Create repository`.
 
@@ -32,9 +32,9 @@ Primeiro passo: Ir no github e criar um novo repositório.
 Segundo passo: Iniciar um repositório no git bash.
 - Com o git bash aberto no diretório da pasta do projeto, execute o comando ` git init` para iniciar o arquivo git.
 
--  Após isso precisamos adicionar os arquivos que vamos subir para o git, se você esta executando o seu primeiro commit desse repositório, execute o comando `git add .`.
+-  Após isso precisamos adicionar os arquivos que vamos subir para o git, se você esta executando o seu primeiro commit desse repositório, execute o comando `git add .`, não se esqueça do ponto no final.
 
-- Caso você queira adicionar apenas um arquivo, por exemplo o `index.html`, basta colocar o caminho da pasta no lugar do ponto, por exemplo `git add index.html`, ou se o arquivo estiver dentro de uma pasta coloque `git add src/index.html`.
+- Caso você queira adicionar apenas um arquivo, por exemplo o `index.html`, basta colocar o caminho do arquivo no lugar do ponto, por exemplo `git add index.html`, ou se o arquivo estiver dentro de uma pasta coloque `git add src/index.html`.
 
 -  Depois disso execute o comando `git commit -m "O NOME DO COMMIT QUE DESEJAR"`, como sugestão se nesse caso você estiver executando o seu primeiro `commit`, pode colocar a mensagem `Initial commit` ou `Confirmação inicial` em português.
 
@@ -46,7 +46,7 @@ Segundo passo: Iniciar um repositório no git bash.
 
 Pronto, com isso basta voltar ao GitHub e recarregar a página que os seus arquivos vão estar lá.
 
-Lembre-se que após o primeiro commit, quando for realizar um novo basta executar os comandos `git add .` ou `git add O ARQUIVO QUE DESEJAR SUBIR`, `git commit -m NOME DO SEU COMMIT` e `git push`.
+Lembre-se que após o primeiro commit, quando for realizar um novo commit basta executar os comandos `git add .` ou `git add O ARQUIVO QUE DESEJAR SUBIR`, `git commit -m "NOME DO SEU COMMIT"` e `git push`.
 
 Agora ficou fácil enviar projetos para o github.
 
